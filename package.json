@@ -1,0 +1,20 @@
+{
+  "name": "engineerhikaru.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tailwind": "tailwindcss build src/css/styles.css -o dist/styles.css",
+    "build:ejs": "ejs-cli -b src/ejs/ -f '!(_)*.ejs' -o ./dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "ejs-cli": "^2.2.1",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  }
+}
